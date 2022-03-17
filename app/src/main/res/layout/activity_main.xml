@@ -8,16 +8,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="188dp"
-        android:layout_height="230dp"
+        android:layout_width="278dp"
+        android:layout_height="353dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@tools:sample/avatars"
-        android:clickable="true"
-        android:contentDescription="TODO" />
-
+        app:layout_constraintVertical_bias="0.462"
+        app:srcCompat="@drawable/image2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
